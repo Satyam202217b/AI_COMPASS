@@ -1,0 +1,347 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# AI BASICS MODULE ENTRY
+# =========================
+
+- intent: ask_ai_basics
+  examples: |
+    - what are AI basics
+    - teach me AI basics
+    - introduce AI basics
+    - help me learn AI fundamentals
+    - beginner AI concepts
+    - AI fundamentalsethical
+    - basic concepts of AI
+    - I want to learn AI from scratch
+    - explain AI basics
+    - teach me the basics of artificial intelligence
+    - explain AI fundamentals
+
+
+# =========================
+# WHAT IS AI
+# =========================
+
+- intent: ask_what_is_ai
+  examples: |
+    - what is AI
+    - what is artificial intelligence
+    - explain artificial intelligence
+    - define AI
+    - tell me about AI
+    - what does AI mean
+    - what exactly is AI
+    - introduce artificial intelligence
+    - simple definition of AI
+    - explain AI in simple words
+
+
+# =========================
+# HISTORY OF AI
+# =========================
+
+- intent: ask_history_of_ai
+  examples: |
+    - history of AI
+    - how did AI start
+    - origin of artificial intelligence
+    - when was AI invented
+    - evolution of AI
+    - explain the history of AI
+    - how has AI evolved
+    - AI timeline
+    - development of AI
+    - early AI systems
+    - who invented AI
+    - growth of artificial intelligence
+    - brief history of AI
+    - AI history summary
+    - how was AI built
+
+
+# =========================
+# MACHINE LEARNING
+# =========================
+
+- intent: ask_machine_learning
+  examples: |
+    - what is machine learning
+    - explain machine learning
+    - define machine learning
+    - tell me about machine learning
+    - how does machine learning work
+    - explain ML
+    - machine learning definition
+    - how machines learn from data
+    - machine learning in AI
+    - how does AI learn from data
+
+# =========================
+# SUPERVISED LEARNING
+# =========================
+
+- intent: ask_supervised_learning
+  examples: |
+    - what is supervised learning
+    - explain supervised learning
+    - define supervised learning
+    - how does supervised learning work
+    - examples of supervised learning
+    - tell me about supervised learning
+    - what are labeled datasets
+    - learning with labeled data
+    - supervised learning in AI
+
+
+# =========================
+# UNSUPERVISED LEARNING
+# =========================
+
+- intent: ask_unsupervised_learning
+  examples: |
+    - what is unsupervised learning
+    - explain unsupervised learning
+    - define unsupervised learning
+    - how does unsupervised learning work
+    - examples of unsupervised learning
+    - clustering in AI
+    - unlabeled data learning
+    - explain clustering algorithms
+    - learning from unlabeled data
+
+# =========================
+# REINFORCEMENT LEARNING
+# =========================
+
+- intent: ask_reinforcement_learning
+  examples: |
+    - what is reinforcement learning
+    - explain reinforcement learning
+    - define reinforcement learning
+    - learning using rewards and penalties
+    - reinforcement learning examples
+    - RL in AI
+    - how reinforcement learning works
+    - explain reinforcement learning in simple words
+    - reinforcement learning applications
+
+
+# =========================
+# DEEP LEARNING
+# =========================
+
+- intent: ask_deep_learning
+  examples: |
+    - what is deep learning
+    - explain deep learning
+    - define deep learning
+    - how does deep learning work
+    - tell me about deep learning
+    - neural network based learning
+    - deep neural networks
+    - difference between machine learning and deep learning
+    - deep learning applications
+
+
+# =========================
+# NEURAL NETWORKS
+# =========================
+
+- intent: ask_neural_networks
+  examples: |
+    - what are neural networks
+    - explain neural networks
+    - define neural networks
+    - artificial neural networks
+    - ANN in AI
+    - how neural networks work
+    - tell me about neural networks
+    - AI brain inspired systems
+    - explain ANN
+
+
+# =========================
+# NLP
+# =========================
+
+- intent: ask_nlp
+  examples: |
+    - what is NLP
+    - explain NLP
+    - natural language processing
+    - define natural language processing
+    - how does NLP work
+    - NLP in AI
+    - language understanding in AI
+    - text processing AI
+    - speech recognition AI
+    - chatbot language understanding
+    - explain natural language processing
+
+
+# =========================
+# COMPUTER VISION
+# =========================
+
+- intent: ask_computer_vision
+  examples: |
+    - what is computer vision
+    - explain computer vision
+    - define computer vision
+    - image recognition AI
+    - AI image processing
+    - object detection AI
+    - how computers see images
+    - visual AI systems
+    - facial recognition systems
+    - explain computer vision applications
+
+
+# =========================
+# GENERATIVE AI
+# =========================
+
+- intent: ask_generative_ai
+  examples: |
+    - what is generative AI
+    - explain generative AI
+    - define generative AI
+    - AI content generation
+    - text generation AI
+    - image generation AI
+    - how generative AI works
+    - generative models
+    - explain GenAI
+    - AI that creates content
+    - ChatGPT and generative AI
+
+
+# =========================
+# AI MODELS
+# =========================
+
+- intent: ask_ai_models
+  examples: |
+    - what are AI models
+    - explain AI models
+    - define AI models
+    - machine learning models
+    - AI prediction models
+    - neural network models
+    - examples of AI models
+    - trained AI systems
+    - types of AI models
+    - explain AI model training
+    - how AI models learn from data
+
+# =========================
+# TRAINING DATA
+# =========================
+
+- intent: ask_training_data
+  examples: |
+    - what is training data
+    - explain training data
+    - define training datasets
+    - AI training information
+    - how AI uses data
+    - datasets in machine learning
+    - labeled datasets
+    - importance of training data
+    - bad training data effects
+    - AI learning data
+    - How is training dat importatn for AI
+    - explain the role of training data in AI
+
+
+# =========================
+# AI APPLICATIONS
+# =========================
+
+- intent: ask_ai_applications
+  examples: |
+    - applications of AI
+    - where is AI used
+    - AI use cases
+    - real world AI applications
+    - examples of AI applications
+    - how AI is used in industry
+    - practical uses of AI
+    - AI in daily life
+    - AI applications in business
+    - uses of artificial intelligence
+
+
+# =========================
+# RECOMMENDATION SYSTEMS
+# =========================
+
+- intent: ask_recommendation_systems
+  examples: |
+    - what are recommendation systems
+    - explain recommendation systems
+    - Netflix recommendation algorithm
+    - YouTube recommendations
+    - product recommendation AI
+    - AI recommendation engines
+    - how recommendations work
+    - recommendation systems in AI
+    - personalized content recommendation
+    - explain recommendation algorithms
+
+
+# =========================
+# CHATBOTS
+# =========================
+
+- intent: ask_chatbots
+  examples: |
+    - what are chatbots
+    - explain chatbots
+    - AI chatbot systems
+    - conversational AI
+    - chatbot applications
+    - how chatbots work
+    - virtual assistants
+    - AI assistants
+    - chatbot technology
+    - explain conversational agents
+
+
+# =========================
+# FUTURE OF AI
+# =========================
+
+- intent: ask_future_of_ai
+  examples: |
+    - future of AI
+    - what is the future of artificial intelligence
+    - future AI developments
+    - upcoming AI technologies
+    - how AI will evolve
+    - future AI trends
+    - AI in the future
+    - impact of future AI
+    - future advancements in AI
+    - where is AI heading
+
+
+# =========================
+# LIMITATIONS OF AI
+# =========================
+
+- intent: ask_limitations_ai
+  examples: |
+    - limitations of AI
+    - problems with AI
+    - weaknesses of AI
+    - disadvantages of artificial intelligence
+    - what AI cannot do
+    - challenges of AI
+    - AI limitations
+    - drawbacks of AI
+    - why AI is not perfect
+    - issues in AI systems

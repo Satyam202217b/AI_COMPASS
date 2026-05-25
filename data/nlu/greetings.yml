@@ -1,0 +1,209 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# GREETING INTENTS
+# =========================
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - hey there
+    - hello there
+    - hii
+    - heyy
+    - good morning
+    - good afternoon
+    - good evening
+    - greetings
+    - what's up
+    - yo
+    - hi bot
+    - hello bot
+    - hey AI Compass
+    - start
+    - let's begin
+    - let's start
+    - begin learning
+    - help me learn AI
+    - I want to learn AI
+    - teach me about AI
+    - can you teach me AI
+    - I want to start learning
+    - let's learn about AI
+    - help me understand AI
+
+
+# =========================
+# GOODBYE INTENTS
+# =========================
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - catch you later
+    - talk to you later
+    - thanks bye
+    - bye bot
+    - exit
+    - quit
+    - stop
+    - end chat
+    - end conversation
+    - I am done
+    - that's all
+    - thank you goodbye
+    - thanks for teaching me
+    - see ya
+    - have a nice day
+
+
+# =========================
+# BOT CHALLENGE
+# =========================
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot
+    - are you human
+    - am I talking to a bot
+    - who are you
+    - what are you
+    - are you real
+    - are you an AI
+    - what is your purpose
+    - what do you do
+    - what can you help with
+    - are you an assistant
+    - are you a chatbot
+    - who created you
+    - what is AI Compass
+    - tell me about yourself
+
+
+# =========================
+# AFFIRM INTENTS
+# =========================
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yup
+    - correct
+    - absolutely
+    - definitely
+    - sure
+    - okay
+    - ok
+    - sounds good
+    - continue
+    - go ahead
+    - let's continue
+    - teach me more
+    - next topic
+    - yes continue
+    - I want to continue
+    - tell me more
+    - continue learning
+
+
+# =========================
+# DENY INTENTS
+# =========================
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not now
+    - stop
+    - don't continue
+    - no thanks
+    - I don't want to continue
+    - maybe later
+    - not interested
+    - cancel
+    - skip
+    - stop learning
+    - end this topic
+
+
+# =========================
+# LEARNING NAVIGATION
+# =========================
+
+- intent: continue_learning
+  examples: |
+    - continue
+    - continue learning
+    - next
+    - next topic
+    - teach me more
+    - let's move ahead
+    - proceed
+    - continue the lesson
+    - what's next
+    - next concept
+    - continue the module
+    - I want to learn more
+    - let's continue learning
+    - move to the next topic
+    - explain the next topic
+
+
+- intent: repeat_topic
+  examples: |
+    - repeat that
+    - explain again
+    - can you repeat
+    - say that again
+    - I didn't understand
+    - explain more simply
+    - simplify that
+    - repeat the topic
+    - explain it once more
+    - can you explain again
+    - I am confused
+    - make it easier
+    - explain in simple words
+
+
+- intent: ask_example
+  examples: |
+    - give an example
+    - can you give an example
+    - show me an example
+    - real world example
+    - explain with example
+    - practical example
+    - real life example
+    - can you explain with a real example
+    - example please
+    - provide an example
+
+
+# =========================
+# FALLBACK / UNKNOWN
+# =========================
+
+- intent: out_of_scope
+  examples: |
+    - book me a cab
+    - what is the weather
+    - play music
+    - order food
+    - who won the match
+    - open youtube
+    - tell me a joke
+    - what is your favorite movie
+    - set an alarm
+    - call someone
+    - book a hotel
+    - what is the stock price

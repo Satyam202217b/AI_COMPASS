@@ -1,0 +1,275 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# AI BIAS MODULE ENTRY
+# =========================
+
+- intent: ask_ai_bias
+  examples: |
+    - what is AI bias
+    - explain AI bias
+    - teach me about AI bias
+    - define AI bias
+    - bias in artificial intelligence
+    - AI discrimination
+    - unfair AI systems
+    - biased AI models
+    - AI fairness issues
+    - introduce AI bias
+    - how AI becomes biased
+    - explain bias in AI systems
+    - ai bias overview
+
+
+# =========================
+# CAUSES OF AI BIAS
+# =========================
+
+- intent: ask_causes_ai_bias
+  examples: |
+    - causes of AI bias
+    - why does AI become biased
+    - what causes AI bias
+    - how bias enters AI systems
+    - reasons for AI bias
+    - explain causes of AI bias
+    - why AI models become unfair
+    - sources of AI bias
+    - AI bias causes
+    - factors behind AI bias
+
+
+# =========================
+# DATA BIAS
+# =========================
+
+- intent: ask_data_bias
+  examples: |
+    - what is data bias
+    - explain data bias
+    - biased datasets
+    - training data bias
+    - unfair data in AI
+    - how datasets create bias
+    - examples of data bias
+    - AI data problems
+    - biased training data
+    - data imbalance in AI
+
+
+# =========================
+# ALGORITHMIC BIAS
+# =========================
+
+- intent: ask_algorithmic_bias
+  examples: |
+    - what is algorithmic bias
+    - explain algorithmic bias
+    - bias in algorithms
+    - unfair AI algorithms
+    - biased decision making algorithms
+    - AI algorithm discrimination
+    - examples of algorithmic bias
+    - how algorithms become biased
+    - algorithm fairness issues
+    - bias in machine learning algorithms
+
+
+# =========================
+# SAMPLING BIAS
+# =========================
+
+- intent: ask_sampling_bias
+  examples: |
+    - what is sampling bias
+    - explain sampling bias
+    - biased samples in AI
+    - unfair data sampling
+    - AI sampling issues
+    - dataset sampling bias
+    - examples of sampling bias
+    - sampling errors in machine learning
+    - non representative data bias
+    - biased population samples
+
+
+# =========================
+# GENDER BIAS
+# =========================
+
+- intent: ask_gender_bias
+  examples: |
+    - what is gender bias in AI
+    - explain gender bias
+    - AI discrimination based on gender
+    - sexist AI systems
+    - examples of gender bias in AI
+    - hiring systems favoring men
+    - unfair AI toward women
+    - AI gender discrimination
+    - biased recruitment AI
+    - gender fairness in AI
+
+
+# =========================
+# RACIAL BIAS
+# =========================
+
+- intent: ask_racial_bias
+  examples: |
+    - what is racial bias in AI
+    - explain racial bias
+    - race discrimination in AI
+    - biased facial recognition systems
+    - AI racial discrimination
+    - unfair AI toward ethnic groups
+    - examples of racial bias in AI
+    - racial fairness in AI
+    - bias against minorities in AI
+    - AI systems with racial bias
+
+
+# =========================
+# HIRING BIAS
+# =========================
+
+- intent: ask_hiring_bias
+  examples: |
+    - what is hiring bias in AI
+    - explain hiring bias
+    - biased recruitment systems
+    - unfair AI hiring systems
+    - AI discrimination in recruitment
+    - resume screening bias
+    - examples of hiring bias
+    - recruitment AI fairness
+    - AI hiring discrimination
+    - biased candidate selection AI
+
+
+# =========================
+# FACIAL RECOGNITION BIAS
+# =========================
+
+- intent: ask_facial_recognition_bias
+  examples: |
+    - facial recognition bias
+    - biased facial recognition systems
+    - explain facial recognition bias
+    - unfair face recognition AI
+    - facial AI discrimination
+    - face detection bias
+    - facial recognition fairness problems
+    - AI errors in facial recognition
+    - bias in image recognition AI
+    - facial recognition issues
+
+
+# =========================
+# HEALTHCARE AI BIAS
+# =========================
+
+- intent: ask_healthcare_ai_bias
+  examples: |
+    - healthcare AI bias
+    - bias in medical AI
+    - unfair healthcare algorithms
+    - AI discrimination in healthcare
+    - biased medical diagnosis AI
+    - examples of healthcare AI bias
+    - AI healthcare fairness issues
+    - medical AI data bias
+    - healthcare recommendation bias
+    - AI bias in hospitals
+
+
+# =========================
+# RECOMMENDATION SYSTEM BIAS
+# =========================
+
+- intent: ask_recommendation_bias
+  examples: |
+    - recommendation system bias
+    - biased recommendation systems
+    - unfair AI recommendations
+    - YouTube recommendation bias
+    - Netflix recommendation bias
+    - AI recommendation unfairness
+    - explain recommendation bias
+    - social media recommendation bias
+    - biased content recommendations
+    - recommendation algorithm discrimination
+
+
+# =========================
+# FAIRNESS TESTING
+# =========================
+
+- intent: ask_fairness_testing
+  examples: |
+    - what is fairness testing
+    - explain fairness testing
+    - AI fairness evaluation
+    - testing bias in AI
+    - how to test AI fairness
+    - fairness checks in AI
+    - AI auditing for fairness
+    - fairness measurement in AI
+    - bias evaluation methods
+    - AI fairness metrics
+
+
+# =========================
+# REDUCING AI BIAS
+# =========================
+
+- intent: ask_reduce_bias
+  examples: |
+    - how to reduce AI bias
+    - reducing AI bias
+    - preventing bias in AI
+    - methods to reduce AI bias
+    - how to make AI fair
+    - solving AI bias problems
+    - techniques for reducing AI bias
+    - improving fairness in AI
+    - AI bias mitigation
+    - ways to reduce discrimination in AI
+
+
+# =========================
+# BIAS DETECTION
+# =========================
+
+- intent: ask_bias_detection
+  examples: |
+    - what is bias detection
+    - explain bias detection
+    - detecting AI bias
+    - how to identify AI bias
+    - AI bias monitoring
+    - bias detection methods
+    - spotting unfair AI systems
+    - finding discrimination in AI
+    - AI fairness analysis
+    - identifying biased algorithms
+
+
+# =========================
+# REAL WORLD AI BIAS EXAMPLES
+# =========================
+
+- intent: ask_bias_examples
+  examples: |
+    - examples of AI bias
+    - real world AI bias cases
+    - AI bias examples
+    - famous AI bias incidents
+    - real life AI discrimination
+    - biased AI systems examples
+    - unfair AI case studies
+    - examples of unfair algorithms
+    - real AI fairness problems
+    - AI bias scandals

@@ -1,0 +1,300 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# AI IMPACT MODULE ENTRY
+# =========================
+
+- intent: ask_ai_impact
+  examples: |
+    - what is the impact of AI
+    - explain AI impact
+    - how AI impacts society
+    - effects of artificial intelligence
+    - positive and negative impacts of AI
+    - AI influence on society
+    - social impact of AI
+    - economic impact of AI
+    - AI changing the world
+    - how AI affects people
+    - impact of AI on daily life
+    - AI impact on industries
+    - How AI is transforming the world
+    - AI impact in different sectors
+
+
+# =========================
+# AI IN HEALTHCARE
+# =========================
+
+- intent: ask_ai_healthcare
+  examples: |
+    - AI in healthcare
+    - how AI is used in healthcare
+    - medical AI applications
+    - AI in hospitals
+    - AI for disease detection
+    - healthcare AI systems
+    - AI helping doctors
+    - AI in medical diagnosis
+    - examples of AI in healthcare
+    - AI in medicine
+    - AI improving healthcare
+    - how AI is transforming healthcare
+    - AI impact on healthcare industry
+    - artificial intelligence in healthcare advancements
+    - how does the healthcare industry benefit from artificial intelligence
+
+
+# =========================
+# AI IN EDUCATION
+# =========================
+
+- intent: ask_ai_education
+  examples: |
+    - AI in education
+    - how AI is used in education
+    - educational AI systems
+    - AI learning platforms
+    - AI in online learning
+    - AI helping students
+    - AI in classrooms
+    - AI personalized learning
+    - examples of AI in education
+    - AI tutoring systems
+    - smart education with AI
+
+
+# =========================
+# AI IN FINANCE
+# =========================
+
+- intent: ask_ai_finance
+  examples: |
+    - AI in finance
+    - how AI is used in banking
+    - AI in financial services
+    - fraud detection using AI
+    - AI stock market prediction
+    - AI in fintech
+    - banking AI systems
+    - AI credit scoring
+    - examples of AI in finance
+    - AI for financial analysis
+
+
+# =========================
+# AI IN TRANSPORTATION
+# =========================
+
+- intent: ask_ai_transportation
+  examples: |
+    - AI in transportation
+    - self driving cars
+    - autonomous vehicles
+    - AI in traffic management
+    - AI transportation systems
+    - smart transportation with AI
+    - AI in logistics
+    - AI for autonomous driving
+    - examples of AI in transportation
+    - AI improving transportation
+
+
+# =========================
+# AI IN AGRICULTURE
+# =========================
+
+- intent: ask_ai_agriculture
+  examples: |
+    - AI in agriculture
+    - AI farming systems
+    - smart farming with AI
+    - AI in crop monitoring
+    - AI for agriculture
+    - AI helping farmers
+    - precision farming AI
+    - agricultural AI applications
+    - AI in food production
+    - examples of AI in agriculture
+
+
+# =========================
+# AI IN CYBERSECURITY
+# =========================
+
+- intent: ask_ai_cybersecurity
+  examples: |
+    - AI in cybersecurity
+    - AI for cyber defense
+    - AI detecting cyber attacks
+    - cybersecurity AI systems
+    - AI security tools
+    - AI threat detection
+    - AI in network security
+    - examples of AI in cybersecurity
+    - AI preventing hacking
+    - machine learning in cybersecurity
+
+
+# =========================
+# AI IN ENTERTAINMENT
+# =========================
+
+- intent: ask_ai_entertainment
+  examples: |
+    - AI in entertainment
+    - AI in movies and music
+    - entertainment recommendation systems
+    - AI generated content
+    - AI in gaming
+    - AI in streaming platforms
+    - AI in social media entertainment
+    - examples of AI in entertainment
+    - AI in content creation
+    - entertainment AI applications
+
+
+# =========================
+# AI AND PRODUCTIVITY
+# =========================
+
+- intent: ask_ai_productivity
+  examples: |
+    - AI and productivity
+    - how AI improves productivity
+    - AI automation productivity
+    - AI making work faster
+    - AI efficiency improvements
+    - workplace productivity AI
+    - AI helping businesses
+    - AI task automation
+    - productivity tools using AI
+    - AI increasing efficiency
+
+
+# =========================
+# AUTOMATION
+# =========================
+
+- intent: ask_automation
+  examples: |
+    - what is automation
+    - AI automation
+    - explain automation in AI
+    - automated systems using AI
+    - AI replacing manual tasks
+    - intelligent automation
+    - automation with machine learning
+    - AI process automation
+    - robotic automation using AI
+    - automation examples in AI
+
+
+# =========================
+# JOB DISPLACEMENT
+# =========================
+
+- intent: ask_job_displacement
+  examples: |
+    - AI job displacement
+    - jobs replaced by AI
+    - AI replacing workers
+    - automation and unemployment
+    - impact of AI on jobs
+    - AI and employment
+    - jobs at risk due to AI
+    - workforce automation
+    - AI reducing human jobs
+    - future jobs and AI
+
+
+# =========================
+# ECONOMIC IMPACT
+# =========================
+
+- intent: ask_economic_impact
+  examples: |
+    - economic impact of AI
+    - AI impact on economy
+    - AI and economic growth
+    - financial impact of AI
+    - AI transforming industries
+    - economic benefits of AI
+    - AI business impact
+    - AI productivity and economy
+    - AI changing the market
+    - AI effect on businesses
+
+
+# =========================
+# SOCIAL IMPACT
+# =========================
+
+- intent: ask_social_impact
+  examples: |
+    - social impact of AI
+    - how AI affects society
+    - AI influence on human life
+    - societal impact of AI
+    - AI changing social behavior
+    - AI and society
+    - impact of AI on communities
+    - social changes due to AI
+    - AI effects on communication
+    - AI and human interaction
+
+
+# =========================
+# AI AND CREATIVITY
+# =========================
+
+- intent: ask_ai_creativity
+  examples: |
+    - AI and creativity
+    - creative AI systems
+    - AI generating art
+    - AI creating music
+    - AI creativity tools
+    - generative AI creativity
+    - can AI be creative
+    - AI creative applications
+    - AI in art and design
+    - AI generated creative content
+
+
+# =========================
+# HUMAN AI COLLABORATION
+# =========================
+
+- intent: ask_human_ai_collaboration
+  examples: |
+    - human AI collaboration
+    - humans working with AI
+    - AI assisting humans
+    - collaboration between AI and humans
+    - AI augmenting human work
+    - teamwork between AI and people
+    - AI supporting decision making
+    - AI helping professionals
+    - cooperative AI systems
+    - human centered AI
+
+
+# =========================
+# FUTURE IMPACT OF AI
+# =========================
+
+- intent: ask_future_ai_impact
+  examples: |
+    - future impact of AI
+    - long term effects of AI
+    - future of AI in society
+    - how AI will shape the future
+    - future influence of AI
+    - future AI transformations
+    - AI impact in the future
+    - AI and future civilization
+    - future industries using AI
+    - AI future predictions

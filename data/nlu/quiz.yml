@@ -1,0 +1,150 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# START QUIZ
+# =========================
+
+- intent: start_quiz
+  examples: |
+    - start quiz
+    - begin quiz
+    - I want to take a quiz
+    - quiz me
+    - let's do a quiz
+    - start AI quiz
+    - test my knowledge
+    - I want an AI quiz
+    - begin AI assessment
+    - give me a quiz
+    - can I take a quiz
+    - start the assessment
+    - launch the quiz
+    - test me on AI
+    - AI knowledge test
+    - begin learning assessment
+    - I want to test myself
+    - let's begin the quiz
+    - help me test my ai awareness
+
+
+# =========================
+# QUIZ ANSWERS
+# =========================
+
+- intent: answer_option
+  examples: |
+    - a
+    - b
+    - c
+    - option a
+    - option b
+    - option c
+    - answer a
+    - answer b
+    - answer c
+    - I choose a
+    - I choose b
+    - I choose c
+    - my answer is a
+    - my answer is b
+    - my answer is c
+    - the answer is a
+    - the answer is b
+    - the answer is c
+    - I think it's a
+    - I think it's b
+    - I think it's c
+    - choose a
+    - choose b
+    - choose c
+    - A
+    - B
+    - C
+
+
+# =========================
+# QUIZ CONTROLS
+# =========================
+
+- intent: continue_quiz
+  examples: |
+    - continue quiz
+    - next question
+    - continue
+    - proceed
+    - go ahead
+    - continue the quiz
+    - next
+    - let's continue
+    - move to next question
+    - continue assessment
+
+
+- intent: stop_quiz
+  examples: |
+    - stop quiz
+    - cancel quiz
+    - quit quiz
+    - end quiz
+    - exit quiz
+    - stop the assessment
+    - I don't want to continue the quiz
+    - cancel the test
+    - finish quiz
+    - terminate quiz
+
+
+# =========================
+# MICRO QUIZ INTERACTION
+# =========================
+
+- intent: start_micro_quiz
+  examples: |
+    - ask me a quick question
+    - give me a micro quiz
+    - quick quiz
+    - test this topic
+    - ask a small question
+    - mini quiz
+    - short assessment
+    - quick test
+    - can you test me
+    - give me one question
+    
+
+# =========================
+# QUIZ PERFORMANCE
+# =========================
+
+- intent: ask_quiz_score
+  examples: |
+    - what is my score
+    - show my quiz score
+    - how much did I score
+    - quiz result
+    - assessment result
+    - did I pass
+    - my performance
+    - show results
+    - what was my result
+    - final score
+
+
+# =========================
+# QUIZ FEEDBACK
+# =========================
+
+- intent: ask_quiz_feedback
+  examples: |
+    - explain the answer
+    - why is that correct
+    - can you explain the solution
+    - explain this question
+    - why was my answer wrong
+    - give explanation
+    - explain the correct answer
+    - help me understand the answer
+    - tell me why
+    - explain the quiz feedback

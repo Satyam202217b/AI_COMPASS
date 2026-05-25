@@ -1,0 +1,276 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# AI REGULATIONS MODULE ENTRY
+# =========================
+
+- intent: ask_ai_regulations
+  examples: |
+    - what are AI regulations
+    - explain AI regulations
+    - AI laws and regulations
+    - rules for artificial intelligence
+    - AI governance laws
+    - legal regulations for AI
+    - responsible AI regulations
+    - AI policy regulations
+    - AI compliance rules
+    - why AI regulations matter
+    - explain AI governance
+    - AI legal framework
+    - AI regulatory landscape
+    - Why do we need regulations for AI
+
+
+# =========================
+# GDPR
+# =========================
+
+- intent: ask_gdpr
+  examples: |
+    - what is GDPR
+    - explain GDPR
+    - GDPR and AI
+    - data privacy laws in Europe
+    - general data protection regulation
+    - GDPR rules for AI
+    - AI and GDPR compliance
+    - European privacy law
+    - user data protection under GDPR
+    - GDPR data regulations
+
+
+# =========================
+# EU AI ACT
+# =========================
+
+- intent: ask_eu_ai_act
+  examples: |
+    - what is the EU AI Act
+    - explain EU AI Act
+    - European AI regulations
+    - EU artificial intelligence act
+    - AI laws in Europe
+    - EU rules for AI systems
+    - AI risk categories in EU AI Act
+    - high risk AI systems
+    - AI compliance under EU AI Act
+    - European AI governance law
+
+
+# =========================
+# AI GOVERNANCE
+# =========================
+
+- intent: ask_ai_governance
+  examples: |
+    - what is AI governance
+    - explain AI governance
+    - governance of AI systems
+    - AI management policies
+    - AI oversight frameworks
+    - AI control systems
+    - responsible AI governance
+    - AI regulation governance
+    - AI supervision mechanisms
+    - governance policies for AI
+
+
+# =========================
+# COMPLIANCE
+# =========================
+
+- intent: ask_compliance
+  examples: |
+    - what is AI compliance
+    - explain compliance in AI
+    - AI regulatory compliance
+    - following AI laws
+    - compliance requirements for AI
+    - legal compliance in AI systems
+    - AI policy compliance
+    - AI governance compliance
+    - responsible AI compliance
+    - ethical compliance in AI
+
+
+# =========================
+# DATA PROTECTION LAWS
+# =========================
+
+- intent: ask_data_protection_laws
+  examples: |
+    - what are data protection laws
+    - explain data protection laws
+    - AI data protection regulations
+    - privacy laws for AI
+    - laws protecting user data
+    - AI personal data laws
+    - data privacy regulations
+    - legal protection of user information
+    - data security laws
+    - AI and privacy legislation
+
+
+# =========================
+# AI AUDITING
+# =========================
+
+- intent: ask_ai_auditing
+  examples: |
+    - what is AI auditing
+    - explain AI auditing
+    - auditing AI systems
+    - checking AI fairness
+    - AI risk audits
+    - AI accountability auditing
+    - AI compliance auditing
+    - evaluating AI systems
+    - AI inspection processes
+    - transparency audits for AI
+
+
+# =========================
+# AI ACCOUNTABILITY LAWS
+# =========================
+
+- intent: ask_ai_accountability_laws
+  examples: |
+    - AI accountability laws
+    - laws for AI responsibility
+    - legal accountability for AI
+    - who is responsible for AI mistakes
+    - AI liability laws
+    - AI legal responsibility
+    - regulations for AI accountability
+    - accountability rules in AI
+    - AI governance responsibility
+    - legal control of AI systems
+
+
+# =========================
+# PRIVACY REGULATIONS
+# =========================
+
+- intent: ask_privacy_regulations
+  examples: |
+    - privacy regulations for AI
+    - AI privacy laws
+    - explain privacy regulations
+    - data privacy in AI
+    - AI user privacy protection
+    - regulations for personal data
+    - AI and privacy compliance
+    - protecting privacy in AI systems
+    - AI surveillance regulations
+    - legal privacy protections in AI
+
+
+# =========================
+# GOVERNMENT AI POLICIES
+# =========================
+
+- intent: ask_government_ai_policies
+  examples: |
+    - government AI policies
+    - AI policies by governments
+    - national AI regulations
+    - public AI policy frameworks
+    - government control of AI
+    - AI policy initiatives
+    - state regulations for AI
+    - AI laws by governments
+    - public governance of AI
+    - government responsible AI plans
+
+
+# =========================
+# INTERNATIONAL AI LAWS
+# =========================
+
+- intent: ask_international_ai_laws
+  examples: |
+    - international AI laws
+    - global AI regulations
+    - worldwide AI laws
+    - international governance of AI
+    - AI rules across countries
+    - global policies for AI
+    - international AI agreements
+    - AI regulations worldwide
+    - cross border AI laws
+    - global AI compliance standards
+
+
+# =========================
+# ETHICAL REGULATIONS
+# =========================
+
+- intent: ask_ethical_regulations
+  examples: |
+    - ethical AI regulations
+    - ethics laws for AI
+    - AI ethics regulations
+    - rules for ethical AI
+    - legal ethics in AI
+    - responsible AI legal frameworks
+    - fairness regulations in AI
+    - ethical governance of AI
+    - AI moral compliance
+    - ethical standards for AI systems
+
+
+# =========================
+# AI STANDARDS
+# =========================
+
+- intent: ask_ai_standards
+  examples: |
+    - what are AI standards
+    - explain AI standards
+    - technical standards for AI
+    - responsible AI standards
+    - AI development standards
+    - global AI standards
+    - quality standards for AI systems
+    - safety standards for AI
+    - ethical AI standards
+    - AI certification standards
+
+
+# =========================
+# RESPONSIBLE AI POLICIES
+# =========================
+
+- intent: ask_responsible_ai_policies
+  examples: |
+    - responsible AI policies
+    - policies for ethical AI
+    - AI responsibility guidelines
+    - AI governance policies
+    - safe AI policies
+    - trustworthy AI rules
+    - organizational AI policies
+    - responsible machine learning policies
+    - AI ethics policy frameworks
+    - policies for safe AI deployment
+
+
+# =========================
+# FUTURE OF AI REGULATIONS
+# =========================
+
+- intent: ask_future_ai_regulations
+  examples: |
+    - future of AI regulations
+    - future AI laws
+    - upcoming AI regulations
+    - future governance of AI
+    - how AI laws will evolve
+    - future AI policy trends
+    - AI regulation developments
+    - next generation AI laws
+    - future legal control of AI
+    - future responsible AI frameworks

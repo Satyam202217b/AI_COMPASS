@@ -1,0 +1,294 @@
+version: "3.1"
+
+nlu:
+
+# =========================
+# AI ETHICS MODULE ENTRY
+# =========================
+
+- intent: ask_ai_ethics
+  examples: |
+    - what is AI ethics
+    - explain AI ethics
+    - teach me AI ethics
+    - define AI ethics
+    - ethical AI systems
+    - ethics in artificial intelligence
+    - responsible AI ethics
+    - AI moral principles
+    - ethical concerns in AI
+    - AI ethics basics
+    - introduction to AI ethics
+    - why is AI ethics important
+
+
+# =========================
+# FAIRNESS
+# =========================
+
+- intent: ask_fairness
+  examples: |
+    - what is fairness in AI
+    - explain fairness in AI
+    - AI fairness principles
+    - fair AI systems
+    - avoiding unfair AI decisions
+    - fairness in machine learning
+    - ethical fairness in AI
+    - how AI can be fair
+    - fairness issues in AI
+    - unbiased AI systems
+
+
+# =========================
+# ACCOUNTABILITY
+# =========================
+
+- intent: ask_accountability
+  examples: |
+    - what is accountability in AI
+    - explain AI accountability
+    - who is responsible for AI decisions
+    - accountability in artificial intelligence
+    - AI responsibility
+    - ethical accountability in AI
+    - responsible AI systems
+    - AI decision responsibility
+    - accountability for AI mistakes
+    - AI governance accountability
+
+
+# =========================
+# TRANSPARENCY
+# =========================
+
+- intent: ask_transparency
+  examples: |
+    - what is transparency in AI
+    - explain AI transparency
+    - transparent AI systems
+    - openness in AI decision making
+    - understanding AI decisions
+    - explainable and transparent AI
+    - AI transparency importance
+    - why transparency matters in AI
+    - transparent algorithms
+    - AI visibility and openness
+
+
+# =========================
+# EXPLAINABLE AI
+# =========================
+
+- intent: ask_explainable_ai
+  examples: |
+    - what is explainable AI
+    - explain explainable AI
+    - interpretable AI systems
+    - understanding AI outputs
+    - explainable machine learning
+    - transparent AI decisions
+    - how explainable AI works
+    - why explainable AI matters
+    - AI systems humans can understand
+
+
+# =========================
+# RESPONSIBLE AI
+# =========================
+
+- intent: ask_responsible_ai
+  examples: |
+    - what is responsible AI
+    - explain responsible AI
+    - responsible artificial intelligence
+    - safe and responsible AI
+    - responsible AI principles
+    - trustworthy AI systems
+    - AI responsibility guidelines
+    - building responsible AI
+    - responsible machine learning
+
+
+# =========================
+# AI PRIVACY
+# =========================
+
+- intent: ask_ai_privacy
+  examples: |
+    - what is AI privacy
+    - explain privacy in AI
+    - AI data privacy
+    - protecting user data in AI
+    - privacy concerns in AI
+    - AI surveillance and privacy
+    - personal data in AI systems
+    - privacy risks of AI
+    - AI and sensitive information
+    - ethical AI privacy concerns
+
+
+# =========================
+# HUMAN OVERSIGHT
+# =========================
+
+- intent: ask_human_oversight
+  examples: |
+    - what is human oversight in AI
+    - explain human oversight
+    - humans supervising AI
+    - human control over AI systems
+    - monitoring AI decisions
+    - AI human supervision
+    - keeping humans in the loop
+    - human involvement in AI
+    - why humans should oversee AI
+    - AI oversight mechanisms
+
+
+# =========================
+# ETHICAL DECISION MAKING
+# =========================
+
+- intent: ask_ethical_decision_making
+  examples: |
+    - ethical decision making in AI
+    - how AI makes ethical decisions
+    - AI moral decision making
+    - explain ethical AI decisions
+    - AI ethics in decision making
+    - responsible AI choices
+    - moral reasoning in AI
+    - ethical algorithms
+    - fairness in AI decisions
+    - AI ethical judgment
+
+
+# =========================
+# CONSENT IN AI
+# =========================
+
+- intent: ask_consent_ai
+  examples: |
+    - what is consent in AI
+    - explain AI consent
+    - user permission in AI
+    - AI data consent
+    - informed consent in AI systems
+    - AI collecting data without consent
+    - ethical consent in AI
+    - user approval in AI
+    - AI and personal data permission
+    - consent and privacy in AI
+
+
+# =========================
+# TRUSTWORTHY AI
+# =========================
+
+- intent: ask_trustworthy_ai
+  examples: |
+    - what is trustworthy AI
+    - explain trustworthy AI
+    - reliable AI systems
+    - trustworthy artificial intelligence
+    - safe and reliable AI
+    - AI trust and reliability
+    - ethical trustworthy AI
+    - building trust in AI
+    - trusted AI systems
+    - how AI becomes trustworthy
+
+
+# =========================
+# AI SAFETY
+# =========================
+
+- intent: ask_ai_safety
+  examples: |
+    - what is AI safety
+    - explain AI safety
+    - safe AI systems
+    - AI safety measures
+    - risks of unsafe AI
+    - preventing harmful AI behavior
+    - AI control and safety
+    - AI safety engineering
+    - reducing AI risks
+    - protecting humans from unsafe AI
+
+
+# =========================
+# BIAS AND ETHICS
+# =========================
+
+- intent: ask_bias_ethics
+  examples: |
+    - bias and ethics in AI
+    - ethical issues with AI bias
+    - unfair AI ethics
+    - discrimination in AI systems
+    - ethics of biased AI
+    - AI fairness and ethics
+    - bias problems in ethical AI
+    - ethical concerns of biased algorithms
+    - responsible AI and bias
+    - AI discrimination ethics
+    - ethical implications of AI bias
+    - difference between bias and ethics in AI
+    - how bias affects AI ethics
+    - addressing bias in ethical AI
+
+
+# =========================
+# ETHICAL AI DEVELOPMENT
+# =========================
+
+- intent: ask_ethical_ai_development
+  examples: |
+    - ethical AI development
+    - how to build ethical AI
+    - responsible AI development
+    - developing fair AI systems
+    - ethical machine learning development
+    - AI ethics during development
+    - building trustworthy AI
+    - safe AI engineering
+    - AI ethics in software development
+    - ethical AI design principles
+
+
+# =========================
+# AI GOVERNANCE ETHICS
+# =========================
+
+- intent: ask_ai_governance_ethics
+  examples: |
+    - AI governance ethics
+    - ethical AI governance
+    - governing AI responsibly
+    - AI ethics and governance
+    - rules for ethical AI
+    - AI ethical regulations
+    - governance principles in AI
+    - ethical control of AI
+    - managing AI ethically
+    - AI oversight ethics
+
+
+# =========================
+# MORAL CONCERNS IN AI
+# =========================
+
+- intent: ask_moral_concerns_ai
+  examples: |
+    - moral concerns in AI
+    - ethical problems with AI
+    - moral issues in artificial intelligence
+    - AI ethical dilemmas
+    - dangerous ethical AI issues
+    - moral challenges of AI
+    - controversial AI ethics
+    - AI and morality
+    - ethical risks of AI
+    - moral debates around AI

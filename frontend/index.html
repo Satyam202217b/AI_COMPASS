@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Compass Chatbot</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+ 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+ 
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-section">
+      <h1>AI COMPASS</h1>
+      <div class="divider"></div>
+      <span>Chatbot</span>
+    </div>
+  </header>
+ 
+  <!-- Chat Area -->
+  <main class="chat-container" id="chatContainer">
+<!-- Welcome Screen -->
+ 
+<div class="welcome-screen" id="welcomeScreen">
+ 
+  <div class="welcome-icon">
+    <i class="fa-regular fa-comments"></i>
+  </div>
+ 
+  <h1>How can I help you?</h1>
+ 
+  <p>
+    Let your questions find their answers in our chat.
+  </p>
+ 
+</div>
+ 
+  </main>
+ 
+<!-- Input Area -->
+<section class="input-section">
+ 
+  <!-- Reset -->
+  <button class="reset-btn" onclick="resetChat()">
+    <i class="fa-solid fa-rotate-left"></i>
+  </button>
+ 
+  <!-- Input -->
+  <input
+    type="text"
+    id="userInput"
+    placeholder="Type a new question..."
+    onkeypress="handleKeyPress(event)"
+  />
+ 
+  <!-- Voice -->
+  <button class="voice-btn" id="voiceBtn">
+    <i class="fa-solid fa-microphone"></i>
+  </button>
+ 
+  <!-- Send -->
+  <button class="send-btn" onclick="sendMessage()">
+    <i class="fa-regular fa-paper-plane"></i>
+  </button>
+ 
+</section>
+ 
+ 
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 

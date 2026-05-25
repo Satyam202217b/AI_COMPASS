@@ -1,0 +1,286 @@
+# Rasa Domain File
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - continue_learning
+  - repeat_topic
+  - ask_example
+  - out_of_scope
+
+  # Quiz
+  - start_quiz
+  - answer_option
+  - continue_quiz
+  - stop_quiz
+  - start_micro_quiz
+  - ask_quiz_score
+  - ask_quiz_feedback
+
+  # AI Basics
+  - ask_ai_basics
+  - ask_what_is_ai
+  - ask_history_of_ai
+  - ask_machine_learning
+  - ask_supervised_learning
+  - ask_unsupervised_learning
+  - ask_reinforcement_learning
+  - ask_deep_learning
+  - ask_neural_networks
+  - ask_nlp
+  - ask_computer_vision
+  - ask_generative_ai
+  - ask_ai_models
+  - ask_training_data
+  - ask_ai_applications
+  - ask_recommendation_systems
+  - ask_chatbots
+  - ask_future_of_ai
+  - ask_limitations_ai
+
+  # AI Impact
+  - ask_ai_impact
+  - ask_ai_healthcare
+  - ask_ai_education
+  - ask_ai_finance
+  - ask_ai_transportation
+  - ask_ai_agriculture
+  - ask_ai_cybersecurity
+  - ask_ai_entertainment
+  - ask_ai_productivity
+  - ask_automation
+  - ask_job_displacement
+  - ask_economic_impact
+  - ask_social_impact
+  - ask_ai_creativity
+  - ask_human_ai_collaboration
+  - ask_future_ai_impact
+
+  # AI Ethics
+  - ask_ai_ethics
+  - ask_fairness
+  - ask_accountability
+  - ask_transparency
+  - ask_explainable_ai
+  - ask_responsible_ai
+  - ask_ai_privacy
+  - ask_human_oversight
+  - ask_ethical_decision_making
+  - ask_consent_ai
+  - ask_trustworthy_ai
+  - ask_ai_safety
+  - ask_bias_ethics
+  - ask_ethical_ai_development
+  - ask_ai_governance_ethics
+  - ask_moral_concerns_ai
+
+  # AI Bias
+  - ask_ai_bias
+  - ask_causes_ai_bias
+  - ask_data_bias
+  - ask_algorithmic_bias
+  - ask_sampling_bias
+  - ask_gender_bias
+  - ask_racial_bias
+  - ask_hiring_bias
+  - ask_facial_recognition_bias
+  - ask_healthcare_ai_bias
+  - ask_recommendation_bias
+  - ask_fairness_testing
+  - ask_reduce_bias
+  - ask_bias_detection
+  - ask_bias_examples
+
+  # AI Regulations
+  - ask_ai_regulations
+  - ask_gdpr
+  - ask_eu_ai_act
+  - ask_ai_governance
+  - ask_compliance
+  - ask_data_protection_laws
+  - ask_ai_auditing
+  - ask_ai_accountability_laws
+  - ask_privacy_regulations
+  - ask_government_ai_policies
+  - ask_international_ai_laws
+  - ask_ethical_regulations
+  - ask_ai_standards
+  - ask_responsible_ai_policies
+  - ask_future_ai_regulations
+
+  # AI Risks
+  - ask_ai_risk
+  - ask_misinformation
+  - ask_deepfakes
+  - ask_privacy_risks
+  - ask_surveillance_risks
+  - ask_cybersecurity_risks
+  - ask_autonomous_weapons
+  - ask_ai_manipulation
+  - ask_hallucinations_ai
+  - ask_overdependence_ai
+  - ask_job_displacement_risk
+  - ask_social_risks
+  - ask_ethical_risks
+  - ask_ai_safety_risks
+  - ask_loss_human_control
+  - ask_future_risks_agi
+
+
+entities: []
+
+actions:
+
+  - action_handle_quiz_answer
+  - action_stop_quiz
+  - action_handle_micro_quiz
+  - action_handle_answer
+  - action_explain_topic
+  - action_start_quiz
+
+# slots:
+
+#   quiz_questions:
+#     type: any
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+
+#   current_question:
+#     type: float
+#     initial_value: 0
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+
+#   score:
+#     type: float
+#     initial_value: 0
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+
+#   micro_quiz_topic:
+#     type: text
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+
+#   micro_quiz_active:
+#     type: bool
+#     initial_value: false
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+  
+#   micro_quiz_answer:
+#     type: text
+#     influence_conversation: false
+#     mappings:
+#       - type: custom
+
+slots:
+
+  micro_quiz_active:
+    type: bool
+    initial_value: false
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  micro_quiz_answer:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  micro_quiz_topic:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  quiz_questions:
+    type: any
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  current_question:
+    type: float
+    initial_value: 0
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  score:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: custom
+
+
+responses:
+
+  utter_greet:
+    - text: |
+        Hello! 👋
+
+        I am AI Compass — your conversational guide to learning Artificial Intelligence.
+
+        We can explore:
+        • AI Basics
+        • AI Impact
+        • AI Ethics
+        • AI Bias
+        • AI Risks
+        • AI Regulations
+
+        You can also take quizzes to test your understanding.
+
+        What would you like to learn today?
+
+
+  utter_goodbye:
+    - text: |
+        Goodbye! 👋
+
+        Keep exploring AI responsibly and continue learning.
+
+
+  utter_iamabot:
+    - text: |
+        I am AI Compass, a conversational AI literacy assistant built using Rasa.
+
+        My goal is to help users understand:
+        • AI concepts
+        • AI ethics
+        • AI bias
+        • AI risks
+        • AI regulations
+
+
+  utter_fallback:
+    - text: |
+        I may not fully understand that topic yet.
+
+        You can ask me about:
+        • Machine Learning
+        • Deep Learning
+        • AI Ethics
+        • AI Bias
+        • AI Risks
+        • AI Regulations
+        • AI Applications
+
+        Or type:
+        • start quiz
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

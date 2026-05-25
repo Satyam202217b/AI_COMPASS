@@ -1,0 +1,87 @@
+version: "3.1"
+
+rules:
+
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#     - intent: goodbye
+#     - action: utter_goodbye
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#     - intent: bot_challenge
+#     - action: utter_iamabot
+
+# - rule: Fallback rule
+#   steps:
+#     - intent: nlu_fallback
+#     - action: utter_fallback
+    
+# - rule: handle quiz answers
+#   steps:
+#     - intent: answer_option
+#     - action: action_handle_answer
+- rule: greet user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: goodbye user
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: bot challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: start quiz
+  steps:
+    - intent: start_quiz
+    - action: action_start_quiz
+
+- rule: answer quiz
+  steps:
+    - intent: answer_option
+    - action: action_handle_answer
+    
+# =====================================================
+# GENERIC LEARNING RULE
+# =====================================================
+
+# - rule: handle all learning intents
+#   steps:
+#     - action: action_explain_topic
+
+# - rule: handle dynamic learning intents
+#   steps:
+#     - action: action_explain_topic
+
+# # =====================================================
+# # QUIZ RULES
+# # =====================================================
+
+# - rule: start quiz
+#   steps:
+#     - intent: start_quiz
+#     - action: action_start_quiz
+
+# - rule: continue quiz
+#   steps:
+#     - intent: continue_quiz
+#     - action: action_handle_quiz_answer
+
+# - rule: stop quiz
+#   steps:
+#     - intent: stop_quiz
+#     - action: action_stop_quiz
+
+
+# - rule: handle micro quiz answer
+#   condition:
+#     - slot_was_set:
+#         - micro_quiz_active: true
+#   steps:
+#     - intent: answer_option
+#     - action: action_handle_micro_quiz

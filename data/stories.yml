@@ -1,0 +1,70 @@
+version: "3.1"
+
+stories:
+
+# =====================================================
+# BASIC CONVERSATION
+# =====================================================
+
+- story: greeting flow
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: goodbye flow
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: bot challenge flow
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+# =====================================================
+# LEARNING FLOWS
+# =====================================================
+
+- story: ai basics flow
+  steps:
+    - intent: ask_what_is_ai
+    - action: action_explain_topic
+
+- story: machine learning flow
+  steps:
+    - intent: ask_machine_learning
+    - action: action_explain_topic
+
+- story: ai ethics flow
+  steps:
+    - intent: ask_ai_ethics
+    - action: action_explain_topic
+
+- story: ai bias flow
+  steps:
+    - intent: ask_ai_bias
+    - action: action_explain_topic
+
+- story: ai regulations flow
+  steps:
+    - intent: ask_ai_regulations
+    - action: action_explain_topic
+
+- story: ai risks flow
+  steps:
+    - intent: ask_ai_risk
+    - action: action_explain_topic
+
+# =====================================================
+# QUIZ FLOWS
+# =====================================================
+
+- story: start quiz flow
+  steps:
+    - intent: start_quiz
+    - action: action_start_quiz
+
+- story: answer quiz flow
+  steps:
+    - intent: answer_option
+    - action: action_handle_answer
